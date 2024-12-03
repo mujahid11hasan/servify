@@ -1,0 +1,13 @@
+import ServiceCard from "@/components/explores/ServiceCard"
+import Navbar from "@/components/shared/Navbar"
+import Footer from "@/components/shared/Footer"
+
+export default function page() {
+  return (
+    <>
+        <Navbar />
+        <ServiceCard /> 
+        <Footer />
+    </>
+  )
+}
